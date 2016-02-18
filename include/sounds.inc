@@ -15,5 +15,6 @@ enum sound_name {
   snd_test          =  4100,
   snd_sq1_excited01 =  4101,
   snd_alarm_beep    =  4102,
+  snd_thesaurus_pun =  4103,
   snd_max
 };

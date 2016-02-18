@@ -6,11 +6,12 @@
 \***************************************************/
 
 enum motion_name {
-  mot_none           =     0,
-  mot_min            =  8192,
-  mot_com_walk_fs    =  8192,
-  mot_reset          =  8193,
-  mot_move_head      =  8194,
-  mot_wag_front_back =  8195,
+  mot_none              =     0,
+  mot_min               =  8192,
+  mot_com_walk_fs       =  8192,
+  mot_reset             =  8193,
+  mot_move_head         =  8194,
+  mot_wag_front_back    =  8195,
+  mot_thesaurus_pun_mot =  8196,
   mot_max
 };

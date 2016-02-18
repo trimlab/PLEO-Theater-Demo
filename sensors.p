@@ -13,6 +13,7 @@
 #include <Motion.inc>
 #include <Sound.inc>
 #include <File.inc>
+#include <Time.inc>
 #include <Application.inc>
 
 //local includes
@@ -31,9 +32,11 @@ public init()
 public on_sensor(time, sensor_name: sensor, value)
 {
     new name[32];
+
     sensor_get_name(sensor, name);
 
     Debug("sensors:on_sensor(%d, %s, %d)\n", time, name, value);
+
     switch (sensor)
     {
         //when head is touched, move forward
@@ -55,7 +58,12 @@ public on_sensor(time, sensor_name: sensor, value)
 
         case SENSOR_CHIN:
         {
-            sound_play(snd_bite);
+            sound_play(snd_thesaurus_pun);
+            motion_play(mot_thesaurus_pun_mot);
+            while(motion_is_playing(mot_thesaurus_pun_mot))
+            {
+              sleep;
+            }
         }
 
         case SENSOR_TOUCH_PETTED:

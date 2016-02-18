@@ -31,12 +31,14 @@
   <sound path="sounds/test.wav" />
   <sound path="sounds/sq1_excited01.wav" />
   <sound path="sounds/alarm_beep.wav" />
+  <sound path="sounds/thesaurus_pun.wav" />
 
 	<!-- Motions -->
   <motion path="motions/com_walk_fs.csv" />
   <motion path="motions/reset.csv" />
   <motion path="motions/move_head.csv" />
   <motion path="motions/wag_front_back.csv" />
+  <motion path="motions/thesaurus_pun_mot.csv" />
 
   <!-- Commands -->
   <!--<command path="${COMMANDS}/snd_excited.csv" /> -->
