@@ -27,10 +27,11 @@
 	<sound path="sounds/bite.wav"/>
 	<sound path="sounds/sq1_snort05.wav"/>
 	<sound path="sounds/chew_crunch1.wav"/>
-  <sound path="sounds/growl.wav" />
+  <sound path="sounds/roar.wav" />
   <sound path="sounds/test.wav" />
   <sound path="sounds/sq1_excited01.wav" />
   <sound path="sounds/alarm_beep.wav" />
+  <sound path="sounds/PLEO_Line.wav" />
   <sound path="sounds/thesaurus_pun.wav" />
 
 	<!-- Motions -->
@@ -38,7 +39,9 @@
   <motion path="motions/reset.csv" />
   <motion path="motions/move_head.csv" />
   <motion path="motions/wag_front_back.csv" />
-  <motion path="motions/thesaurus_pun_mot.csv" />
+  <motion path="motions/dance.csv" />
+  <motion path="motions/roar.csv" />
+  <motion path="motions/PLEO_Line_Motion.csv" />
 
   <!-- Commands -->
   <!--<command path="${COMMANDS}/snd_excited.csv" /> -->

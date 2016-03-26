@@ -42,38 +42,43 @@ public on_sensor(time, sensor_name: sensor, value)
         //when head is touched, move forward
         case SENSOR_HEAD:
         {
-            motion_play(mot_com_walk_fs);
+          sound_set_volume(200);
+          motion_play(mot_roar);
+          sound_play(snd_roar);
+          while(motion_is_playing(mot_roar))
+          {
+            sleep;
+          }
 
-            // Pause and wait for the motion to finish playing.
-            while (motion_is_playing(mot_com_walk_fs))
-            {
-                sleep;
-            }
-        }
+          sound_set_volume(100);
 
-        case SENSOR_PICKED_UP:
-        {
-            sound_play(snd_growl);
+          sound_play(snd_PLEO_Line);
+          motion_play(mot_PLEO_Line_Motion);
+
+          while(motion_is_playing(mot_PLEO_Line_Motion))
+          {
+            sleep;
+          }
         }
 
         case SENSOR_CHIN:
         {
-            sound_play(snd_thesaurus_pun);
-            motion_play(mot_thesaurus_pun_mot);
-            while(motion_is_playing(mot_thesaurus_pun_mot))
+            motion_play(mot_dance);
+            while(motion_is_playing(mot_dance))
             {
               sleep;
             }
-        }
 
-        case SENSOR_TOUCH_PETTED:
-        {
-            sound_play(snd_sq1_excited01);
-            motion_play(mot_wag_front_back);
-
-            while(motion_is_playing(mot_wag_front_back))
+            motion_play(mot_dance);
+            while(motion_is_playing(mot_dance))
             {
-                sleep;
+              sleep;
+            }
+
+            motion_play(mot_dance);
+            while(motion_is_playing(mot_dance))
+            {
+              sleep;
             }
         }
 

@@ -3,5 +3,7 @@
   <e id=" 8193" name="reset" />
   <e id=" 8194" name="move_head" />
   <e id=" 8195" name="wag_front_back" />
-  <e id=" 8196" name="thesaurus_pun_mot" />
+  <e id=" 8196" name="dance" />
+  <e id=" 8197" name="roar" />
+  <e id=" 8198" name="PLEO_Line_Motion" />
 </enum>

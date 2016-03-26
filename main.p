@@ -13,7 +13,7 @@
 public init()
 {
     print("main::init() enter\n");
-    log_enable(MSG_ALL);
+    log_enable(MSG_DEBUG);
     log_set_file("log.out");
     print("main::init() exit\n");
 }
