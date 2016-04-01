@@ -1,3 +1,0 @@
-<enum max="32767" min="12288" name="command" namesoff="true" short="cmd">
-  <e id="12288" name="snd_grunt" />
-</enum>

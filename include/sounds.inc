@@ -6,15 +6,10 @@
 \***************************************************/
 
 enum sound_name {
-  snd_none          =     0,
-  snd_min           =  4096,
-  snd_bite          =  4096,
-  snd_sq1_snort05   =  4097,
-  snd_chew_crunch1  =  4098,
-  snd_growl         =  4099,
-  snd_test          =  4100,
-  snd_sq1_excited01 =  4101,
-  snd_alarm_beep    =  4102,
-  snd_thesaurus_pun =  4103,
+  snd_none       =     0,
+  snd_min        =  4096,
+  snd_roar       =  4096,
+  snd_alarm_beep =  4097,
+  snd_PLEO_Line  =  4098,
   snd_max
 };

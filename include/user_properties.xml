@@ -1,3 +1,0 @@
-<enum max="32767" min="20480" name="user_property" namesoff="true" short="property">
-  <e id="20480" name="my_prop" />
-</enum>

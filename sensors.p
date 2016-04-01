@@ -16,9 +16,6 @@
 #include <Time.inc>
 #include <Application.inc>
 
-//local includes
-#include "commands.inc"
-#include "user_properties.inc"
 //used for custom sounds
 #include "sounds.inc"
 #include "motions.inc"
@@ -95,6 +92,11 @@ public on_sensor(time, sensor_name: sensor, value)
             }
 
             sound_set_volume(oldVol);
+        }
+
+        case SENSOR_WAKEUP:
+        {
+          app_unload("theater_play.urf", true);
         }
     }
     // reset sensor trigger

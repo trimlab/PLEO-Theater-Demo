@@ -1,0 +1,5 @@
+<enum max="32767" min="4096" name="sound" namesoff="true" short="snd">
+  <e id=" 4096" name="roar" />
+  <e id=" 4097" name="alarm_beep" />
+  <e id=" 4098" name="PLEO_Line" />
+</enum>

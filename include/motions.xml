@@ -1,9 +1,0 @@
-<enum max="32767" min="8192" name="motion" namesoff="true" short="mot">
-  <e id=" 8192" name="com_walk_fs" />
-  <e id=" 8193" name="reset" />
-  <e id=" 8194" name="move_head" />
-  <e id=" 8195" name="wag_front_back" />
-  <e id=" 8196" name="dance" />
-  <e id=" 8197" name="roar" />
-  <e id=" 8198" name="PLEO_Line_Motion" />
-</enum>
