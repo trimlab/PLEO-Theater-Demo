@@ -103,5 +103,5 @@ references to various functions. However, the help program is not very
 informative, and has incorrect information in some places.
 <http://bobthepleo.com/forums/> is a good resource for checking on
 questions you might have about PLEO. Search the programming and
-development boards. If there are any addition questions, send me an
-email at emvasey@mtu.edu
+development boards. If you have questions, send me an
+email at emvasey@mtu.edu.
