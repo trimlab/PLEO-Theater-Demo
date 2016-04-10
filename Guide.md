@@ -64,11 +64,6 @@ to log output near trouble spots.
 Adding Sounds/Motions
 =====================
 
-A note before we start - when assigning IDs to new sounds and motions in
-the xml files, they need to be in the following ranges:\
-Sound: $4096-32767$\
-Motion: $8192-32767$\
-
 1.  Copy your motion .csv files in to the motions directory, and sounds
     into the sounds directory.
 
