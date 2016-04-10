@@ -36,10 +36,10 @@ File Structure
 
 There are several important directories for PLEO:
 
-            build\
-            include\
-            motions\
-            sounds\
+    build\
+    include\
+    motions\
+    sounds\
             
 
 The *build* directory is where the built project file is kept. *motions*
@@ -81,15 +81,15 @@ Motion: $8192-32767$\
     them with snd/mot. For example, to have PLEO run dance.csv, you
     would put:
 
-                        motion_play(mot_dance)
+    motion_play(mot_dance)
                         
 
 After calling motion\_play, you should probably put
 
-        while(motion_is_playing(mot_name))
-        {
-             sleep;
-        }
+    while(motion_is_playing(mot_name))
+    {
+         sleep;
+    }
         
 
 so nothing can interfere when PLEO is playing back the motion.
